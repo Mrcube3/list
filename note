@@ -1,0 +1,20 @@
+////.  Communicating with the Backend
+To retrieve or send data between your frontend and backend, you’ll make HTTP API requests from your React components. This is typically done using tools like:
+
+Axios (preferred for its simplicity and built-in error handling)
+Fetch API (native alternative)
+Redux Toolkit Query or React Query (for advanced state and cache management) ///////
+
+
+
+=========== ./mvnw spring-boot:run ================
+
+       to start the java backend with maven springboot 
+=================== npm run dev(if you have a dev enviroment )/ npm start ===============
+
+to start the frontend 
+
+./mvnw clean compile -e
+
+
+CRUD stands for Create, Read, Update, and Delete, which are the four basic operations used to manage data in databases and applications. These operations allow users to add, view, modify, and remove data records.
