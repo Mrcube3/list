@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(216, 219, 236);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Glass Morphism Buttons */
+.btn {
+  padding: 10px 20px;
+  border: 1px solid rgba(100, 200, 255, 0.3);
+  background: rgba(100, 180, 255, 0.1);
+  color: #64c8ff;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+}
+
+.btn:hover {
+  background: rgba(100, 180, 255, 0.2);
+  border-color: rgba(100, 200, 255, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.2);
+}
+
+.btn-save {
+  margin-left: 10px;
+  background: rgba(79, 172, 254, 0.15);
+  border-color: rgba(79, 172, 254, 0.4);
+  color: #4faffe;
+}
+
+.btn-save:hover {
+  background: rgba(79, 172, 254, 0.25);
+  border-color: rgba(79, 172, 254, 0.7);
+}
+
+.btn-delete {
+  background: rgba(255, 100, 100, 0.1);
+  border-color: rgba(255, 100, 100, 0.3);
+  color: #ff6464;
+  padding: 6px 12px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.btn-delete:hover {
+  background: rgba(255, 100, 100, 0.2);
+  border-color: rgba(255, 100, 100, 0.6);
+  color: #ff8a8a;
+}
